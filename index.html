@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chess Float</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .clearfix::after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+        
+        .board {
+            width: 30vw;
+            margin: 50px auto;
+            border: 10px solid black;
+        }
+        
+        span {
+            float: left;
+            height: 15vw;
+            width: 15vw;
+        }
+        
+        span:nth-child(1),
+        span:nth-child(4) {
+            background-color: red;
+        }
+        
+        h1 {
+            display: inline-block;
+            width: 100%;
+            margin-top: 15px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="board clearfix">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <h1>Chess"float"</h1>
+</body>
+
+</html>
