@@ -1,3 +1,3 @@
-# Sample2
-Chessboard with float:left
-Course www.samurajprogramowania.pl
+# chessboard (float: left)
+
+### simole chessboard with CSS float: left
